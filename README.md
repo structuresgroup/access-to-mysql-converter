@@ -2,7 +2,7 @@
 This program converts input/Data.accdb to .sql files or .csv files
 
 ### Requirements
-* [MDB Tools](https://github.com/mdbtools/mdbtools)
+* [MDB Tools 1.0.0](https://github.com/mdbtools/mdbtools/releases/tag/v1.0.0)
 
 ### Setup
 1. Install [MDB Tools](https://github.com/mdbtools/mdbtools)
