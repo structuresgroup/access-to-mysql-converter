@@ -1,12 +1,12 @@
 # Structures Access To MySQL Converter
-This program converts input/Data.accdb to .sql files or .csv files
+This program converts input/*.accdb to .sql files or .csv files
 
 ### Requirements
 * [MDB Tools 1.0.0](https://github.com/mdbtools/mdbtools/releases/tag/v1.0.0)
 
 ### Setup
 1. Install [MDB Tools](https://github.com/mdbtools/mdbtools)
-1. Move your `.accdb` file to `input/Data.accdb` 
+1. Move your `.accdb` file to the `input/` folder 
 
 ### How to convert to MySQL
 
