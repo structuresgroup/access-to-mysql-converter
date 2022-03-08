@@ -11,6 +11,9 @@ def fix_conversion(filename: str):
     # MySQL doesn't accept this as a valid date, so we should replace it with NULL
     filedata = filedata.replace('"1900-01-00 00:00:00"', 'NULL')
 
+    # We don't need spaces at the beginning of estimate ids
+    filedata = filedata.replace(' 3204_7/07_HRS', '3204_7/07_HRS')
+
     with open(filename, 'w') as file:
         file.write(filedata)
 
